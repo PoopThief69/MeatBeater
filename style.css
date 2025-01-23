@@ -1,0 +1,45 @@
+/* CSS untuk memberikan gaya pada halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #6c63ff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: white;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5848c2;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #6c63ff;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
